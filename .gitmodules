@@ -1,0 +1,3 @@
+[submodule "libsofa"]
+	path = libsofa
+	url = https://github.com/sofacoustics/API_Cpp.git

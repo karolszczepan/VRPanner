@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="JRZqyS" name="VRPanner4" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginFormats="buildVST3">
+  <MAINGROUP id="IWLcFh" name="VRPanner4">
+    <GROUP id="{EF9AE148-C2A9-DE2C-41BA-1CB1509DC481}" name="include">
+      <FILE id="wxADUz" name="ncAtt.cpp" compile="1" resource="0" file="libsofa/dependencies/include/ncAtt.cpp"/>
+      <FILE id="anunAo" name="ncAtt.h" compile="0" resource="0" file="libsofa/dependencies/include/ncAtt.h"/>
+      <FILE id="tVBAuz" name="ncByte.cpp" compile="1" resource="0" file="libsofa/dependencies/include/ncByte.cpp"/>
+      <FILE id="roMAOC" name="ncByte.h" compile="0" resource="0" file="libsofa/dependencies/include/ncByte.h"/>
+      <FILE id="tDTzmX" name="ncChar.cpp" compile="1" resource="0" file="libsofa/dependencies/include/ncChar.cpp"/>
+      <FILE id="jKgqcV" name="ncChar.h" compile="0" resource="0" file="libsofa/dependencies/include/ncChar.h"/>
+      <FILE id="dWfHKl" name="ncCheck.cpp" compile="1" resource="0" file="libsofa/dependencies/include/ncCheck.cpp"/>
+      <FILE id="Tet0bF" name="ncCheck.h" compile="0" resource="0" file="libsofa/dependencies/include/ncCheck.h"/>
+      <FILE id="BJvoKA" name="ncCompoundType.cpp" compile="1" resource="0"
+            file="libsofa/dependencies/include/ncCompoundType.cpp"/>
+      <FILE id="eW7TvT" name="ncCompoundType.h" compile="0" resource="0"
+            file="libsofa/dependencies/include/ncCompoundType.h"/>
+      <FILE id="dgnYIz" name="ncDim.cpp" compile="1" resource="0" file="libsofa/dependencies/include/ncDim.cpp"/>
+      <FILE id="GT8Sp8" name="ncDim.h" compile="0" resource="0" file="libsofa/dependencies/include/ncDim.h"/>
+      <FILE id="Iy4Ulo" name="ncDouble.cpp" compile="1" resource="0" file="libsofa/dependencies/include/ncDouble.cpp"/>
+      <FILE id="tlgJoP" name="ncDouble.h" compile="0" resource="0" file="libsofa/dependencies/include/ncDouble.h"/>
+      <FILE id="LADDZV" name="ncEnumType.cpp" compile="1" resource="0" file="libsofa/dependencies/include/ncEnumType.cpp"/>
+      <FILE id="XXHnKW" name="ncEnumType.h" compile="0" resource="0" file="libsofa/dependencies/include/ncEnumType.h"/>
+      <FILE id="GUZKOE" name="ncException.cpp" compile="1" resource="0" file="libsofa/dependencies/include/ncException.cpp"/>
+      <FILE id="JRKyoo" name="ncException.h" compile="0" resource="0" file="libsofa/dependencies/include/ncException.h"/>
+      <FILE id="JEq4ji" name="ncFile.cpp" compile="1" resource="0" file="libsofa/dependencies/include/ncFile.cpp"/>
+      <FILE id="IcVX5W" name="ncFile.h" compile="0" resource="0" file="libsofa/dependencies/include/ncFile.h"/>
+      <FILE id="rCbOUL" name="ncFloat.cpp" compile="1" resource="0" file="libsofa/dependencies/include/ncFloat.cpp"/>
+      <FILE id="dGyfiS" name="ncFloat.h" compile="0" resource="0" file="libsofa/dependencies/include/ncFloat.h"/>
+      <FILE id="q9i3Lm" name="ncGroup.cpp" compile="1" resource="0" file="libsofa/dependencies/include/ncGroup.cpp"/>
+      <FILE id="fpRM7i" name="ncGroup.h" compile="0" resource="0" file="libsofa/dependencies/include/ncGroup.h"/>
+      <FILE id="kxewFY" name="ncGroupAtt.cpp" compile="1" resource="0" file="libsofa/dependencies/include/ncGroupAtt.cpp"/>
+      <FILE id="fQvlfS" name="ncGroupAtt.h" compile="0" resource="0" file="libsofa/dependencies/include/ncGroupAtt.h"/>
+      <FILE id="EFlN2c" name="ncInt.cpp" compile="1" resource="0" file="libsofa/dependencies/include/ncInt.cpp"/>
+      <FILE id="xHggzU" name="ncInt.h" compile="0" resource="0" file="libsofa/dependencies/include/ncInt.h"/>
+      <FILE id="PgDCn2" name="ncInt64.cpp" compile="1" resource="0" file="libsofa/dependencies/include/ncInt64.cpp"/>
+      <FILE id="PlrQyT" name="ncInt64.h" compile="0" resource="0" file="libsofa/dependencies/include/ncInt64.h"/>
+      <FILE id="z6XG43" name="ncOpaqueType.cpp" compile="1" resource="0"
+            file="libsofa/dependencies/include/ncOpaqueType.cpp"/>
+      <FILE id="dSgCo1" name="ncOpaqueType.h" compile="0" resource="0" file="libsofa/dependencies/include/ncOpaqueType.h"/>
+      <FILE id="WFgoeO" name="ncShort.cpp" compile="1" resource="0" file="libsofa/dependencies/include/ncShort.cpp"/>
+      <FILE id="ygYiFs" name="ncShort.h" compile="0" resource="0" file="libsofa/dependencies/include/ncShort.h"/>
+      <FILE id="cy8rxB" name="ncString.cpp" compile="1" resource="0" file="libsofa/dependencies/include/ncString.cpp"/>
+      <FILE id="qxzVEP" name="ncString.h" compile="0" resource="0" file="libsofa/dependencies/include/ncString.h"/>
+      <FILE id="BWKOAh" name="ncType.cpp" compile="1" resource="0" file="libsofa/dependencies/include/ncType.cpp"/>
+      <FILE id="sYKdH2" name="ncType.h" compile="0" resource="0" file="libsofa/dependencies/include/ncType.h"/>
+      <FILE id="GXR2yb" name="ncUbyte.cpp" compile="1" resource="0" file="libsofa/dependencies/include/ncUbyte.cpp"/>
+      <FILE id="PRY1jz" name="ncUbyte.h" compile="0" resource="0" file="libsofa/dependencies/include/ncUbyte.h"/>
+      <FILE id="oAt1m5" name="ncUint.cpp" compile="1" resource="0" file="libsofa/dependencies/include/ncUint.cpp"/>
+      <FILE id="nCjMGi" name="ncUint.h" compile="0" resource="0" file="libsofa/dependencies/include/ncUint.h"/>
+      <FILE id="i6FRxH" name="ncUint64.cpp" compile="1" resource="0" file="libsofa/dependencies/include/ncUint64.cpp"/>
+      <FILE id="GOcsNT" name="ncUint64.h" compile="0" resource="0" file="libsofa/dependencies/include/ncUint64.h"/>
+      <FILE id="VyHpsG" name="ncUshort.cpp" compile="1" resource="0" file="libsofa/dependencies/include/ncUshort.cpp"/>
+      <FILE id="ev4Ypx" name="ncUshort.h" compile="0" resource="0" file="libsofa/dependencies/include/ncUshort.h"/>
+      <FILE id="OzhfrT" name="ncVar.cpp" compile="1" resource="0" file="libsofa/dependencies/include/ncVar.cpp"/>
+      <FILE id="aG6TGc" name="ncVar.h" compile="0" resource="0" file="libsofa/dependencies/include/ncVar.h"/>
+      <FILE id="wkFHbu" name="ncVarAtt.cpp" compile="1" resource="0" file="libsofa/dependencies/include/ncVarAtt.cpp"/>
+      <FILE id="Irccp8" name="ncVarAtt.h" compile="0" resource="0" file="libsofa/dependencies/include/ncVarAtt.h"/>
+      <FILE id="dH99B8" name="ncVlenType.cpp" compile="1" resource="0" file="libsofa/dependencies/include/ncVlenType.cpp"/>
+      <FILE id="UAxMx9" name="ncVlenType.h" compile="0" resource="0" file="libsofa/dependencies/include/ncVlenType.h"/>
+      <FILE id="h5uUN1" name="netcdf.h" compile="0" resource="0" file="libsofa/dependencies/include/netcdf.h"/>
+      <FILE id="GpBGvG" name="netcdf_mem.h" compile="0" resource="0" file="libsofa/dependencies/include/netcdf_mem.h"/>
+      <FILE id="uug4S4" name="netcdf_meta.h" compile="0" resource="0" file="libsofa/dependencies/include/netcdf_meta.h"/>
+    </GROUP>
+    <GROUP id="{FC3A717E-FA5E-D3AA-5E4E-622026C1E46B}" name="Source">
+      <FILE id="ncsPZI" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="x1P9nl" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="ifCSqN" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="VThYom" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="Og8JV7" name="Resampler.cpp" compile="1" resource="0" file="Source/Resampler.cpp"/>
+      <FILE id="qPaaUe" name="Resampler.h" compile="0" resource="0" file="Source/Resampler.h"/>
+      <FILE id="g0ZO6L" name="SOFAHandler.cpp" compile="1" resource="0" file="Source/SOFAHandler.cpp"/>
+      <FILE id="rXLDtK" name="SOFAHandler.h" compile="0" resource="0" file="Source/SOFAHandler.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="VRPanner4" headerPath="&quot;..\..\libsofa\src&quot;&#10;&quot;..\..\libsofa\dependencies\include&quot;"
+                       libraryPath="&quot;..\..\libsofa\lib&quot;&#10;&quot;..\..\libsofa\dependencies\lib\win&quot;&#10;&quot;..\..\libsofa\dependencies\lib\win\x64&quot;"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="VRPanner4" headerPath="&quot;..\..\libsofa\src&quot;&#10;&quot;..\..\libsofa\dependencies\include&quot;"
+                       libraryPath="&quot;..\..\libsofa\lib&quot;&#10;&quot;..\..\libsofa\dependencies\lib\win&quot;&#10;&quot;..\..\libsofa\dependencies\lib\win\x64&quot;"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
